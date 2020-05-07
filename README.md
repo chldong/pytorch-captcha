@@ -71,7 +71,7 @@
 作者
 ===
 * __Dee Qiu__ <coolcooldee@gmail.com>
-
+* --Saitron__ <cuihailiang@gmail.com>
 其它
 ===
 * __Github项目交流QQ群__ 570997546

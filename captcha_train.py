@@ -7,11 +7,13 @@ from captcha_cnn_model import CNN
 
 # Hyper Parameters
 num_epochs = 30
-batch_size = 100
+batch_size = 1000
 learning_rate = 0.001
 
 def main():
     cnn = CNN()
+    if torch.cuda.is_available():
+        cnn = cnn.cuda()
     cnn.train()
     print('init net')
     criterion = nn.MultiLabelSoftMarginLoss()
@@ -23,6 +25,9 @@ def main():
         for i, (images, labels) in enumerate(train_dataloader):
             images = Variable(images)
             labels = Variable(labels.float())
+            if torch.cuda.is_available():
+                images = images.cuda()
+                labels = labels.cuda()
             predict_labels = cnn(images)
             # print(predict_labels.type)
             # print(labels.type)
