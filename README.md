@@ -71,13 +71,8 @@
 作者
 ===
 * __Dee Qiu__ <coolcooldee@gmail.com>
-* --Saitron__ <cuihailiang@gmail.com>
-其它
-===
-* __Github项目交流QQ群__ 570997546
-
+* __Saitron__ <cuihailiang@gmail.com>
 
 声明
 ===
 本项目仅用于交流学习# pytorch-captcha
-# pytorch-captcha
