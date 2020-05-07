@@ -29,8 +29,8 @@
 
 验证码识别率展示
 ========
-![](https://raw.githubusercontent.com/dee1024/pytorch-captcha-recognition/master/docs/number.png)
-![](https://raw.githubusercontent.com/dee1024/pytorch-captcha-recognition/master/docs/number2.png)
+![](https://raw.githubusercontent.com/chldong/pytorch-captcha/master/docs/number.png)
+![](https://raw.githubusercontent.com/chldong/pytorch-captcha/master/docs/number2.png)
 
 
 快速开始
