@@ -79,4 +79,5 @@
 
 声明
 ===
-本项目仅用于交流学习
+本项目仅用于交流学习# pytorch-captcha
+# pytorch-captcha
